@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Politica de privacidad — Hiking Weather</title>
+  <style>
+    body { font-family: system-ui, sans-serif; line-height: 1.5; max-width: 42rem; margin: 2rem auto; padding: 0 1.25rem; color: #122; }
+    h1 { font-size: 1.6rem; }
+    h2 { font-size: 1.15rem; margin-top: 1.75rem; }
+    a { color: #0b5cad; }
+  </style>
+</head>
+<body>
+  <h1>Politica de privacidad — Hiking Weather</h1>
+  <p>Ultima actualizacion: 12 de septiembre de 2026.</p>
+  <p>Hiking Weather es una aplicacion de meteorologia para actividades outdoor en Catalunya. Esta politica describe que datos se usan y con quien se comparten.</p>
+
+  <h2>Datos que trata la app</h2>
+  <ul>
+    <li><strong>Ubicacion aproximada o precisa</strong> (si activas GPS): se usa solo en primer plano para mostrar el tiempo, el mapa y avisos del municipio. No se envia a nuestros servidores (la app no tiene backend propio) y no se usa para publicidad.</li>
+    <li><strong>Claves API de AEMET</strong> (opcional, las introduces tu): se guardan en el dispositivo y se envian solo a AEMET OpenData si eliges ese proveedor.</li>
+    <li><strong>Rutas GPX</strong> (si importas un archivo): se leen en el dispositivo para evaluar la prevision sobre el track. No se suben a un servidor nuestro.</li>
+    <li><strong>Ajustes</strong> (proveedor, intervalo de refresco, modo actividad): se guardan en el dispositivo.</li>
+  </ul>
+
+  <h2>Con quien se comparte</h2>
+  <p>La app consulta servicios de terceros para mostrarte el tiempo y el mapa:</p>
+  <ul>
+    <li>Open-Meteo (prediccion ECMWF y calidad del aire)</li>
+    <li>AEMET OpenData (si pegas tu API key y eliges AEMET)</li>
+    <li>Institut Cartografic i Geologic de Catalunya (mapa base / ortofoto)</li>
+    <li>ArcGIS / Agents Rurals (capas de Plan Alfa)</li>
+    <li>Geocoder de Android (buscar municipio)</li>
+  </ul>
+  <p>Esas peticiones incluyen coordenadas o el nombre del municipio. Cada servicio aplica su propia politica.</p>
+
+  <h2>Lo que no hacemos</h2>
+  <ul>
+    <li>No creamos cuenta de usuario.</li>
+    <li>No mostramos anuncios.</li>
+    <li>No vendemos datos.</li>
+    <li>No accedemos a la ubicacion en segundo plano.</li>
+  </ul>
+
+  <h2>Conservacion</h2>
+  <p>Los datos se quedan en el telefono. Puedes borrar la app para eliminarlos. Las copias de seguridad del sistema de Android estan desactivadas en esta app (<code>allowBackup=false</code>).</p>
+
+  <h2>Contacto</h2>
+  <p>Para preguntas sobre privacidad, abre un issue en <a href="https://github.com/carlos1811/hikingweather-privacy">github.com/carlos1811/hikingweather-privacy</a>.</p>
+</body>
+</html>
