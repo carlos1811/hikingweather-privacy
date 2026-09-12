@@ -34,6 +34,10 @@ Esas peticiones incluyen coordenadas o el nombre del municipio. Cada servicio ap
 
 Los datos se quedan en el telefono. Puedes borrar la app para eliminarlos. Las copias de seguridad del sistema de Android estan desactivadas en esta app (`allowBackup=false`).
 
+## Limitacion de responsabilidad
+
+Hiking Weather no es un servicio meteorologico. Temperatura, lluvia, viento, UV, calidad del aire, mapa, Plan Alfa y avisos los envian proveedores externos (Open-Meteo/ECMWF, AEMET, ICGC, Agents Rurals y Proteccio Civil). La app solo los muestra: no los genera ni los garantiza. Pueden estar incompletos, retrasados o ser incorrectos. No sustituyen avisos oficiales. En montana decides tu. El uso es bajo tu responsabilidad; no se responde de decisiones, danos o accidentes derivados de esta informacion.
+
 ## Contacto
 
 Para preguntas sobre privacidad, abre un issue en este repositorio:

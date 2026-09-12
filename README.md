@@ -4,4 +4,4 @@ Pagina publica para Google Play. El codigo de la app esta en un repositorio priv
 
 **URL para Play Console:** https://carlos1811.github.io/hikingweather-privacy/
 
-Tambien: [PRIVACY.md](PRIVACY.md)
+Incluye politica de privacidad y limitacion de responsabilidad (los datos meteorologicos son de proveedores externos).
