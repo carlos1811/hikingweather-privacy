@@ -1,6 +1,6 @@
 # Privacy Policy — Hiking Weather
 
-**Last updated:** 7 November 2026 (app version 1.5.10).
+**Last updated:** 7 November 2026 (app version 1.5.11).
 
 This Privacy Policy describes, in a transparent manner, what data are processed when you use the **Hiking Weather** mobile application, for what purposes, for how long, and with which third parties they may be shared, under Regulation (EU) 2016/679 (GDPR) and applicable Spanish data-protection law.
 
