@@ -1,50 +1,104 @@
-# Politica de privacidad — Hiking Weather
+# Privacy Policy — Hiking Weather
 
-Ultima actualizacion: 10 de octubre de 2026.
+**Last updated:** 7 November 2026 (app version 1.5.10).
 
-Hiking Weather es una aplicacion de meteorologia para actividades outdoor en Espana. Esta politica describe que datos se usan y con quien se comparten.
+This Privacy Policy describes, in a transparent manner, what data are processed when you use the **Hiking Weather** mobile application, for what purposes, for how long, and with which third parties they may be shared, under Regulation (EU) 2016/679 (GDPR) and applicable Spanish data-protection law.
 
-## Datos que trata la app
+**Data controller:** the developer of Hiking Weather (the “Developer”).  
+**Privacy contact:** see the “Contact” section below.
 
-- **Ubicacion aproximada o precisa** (si activas GPS): se usa solo en **primer plano** para mostrar el tiempo, el mapa y avisos del punto o municipio. No se envia a nuestros servidores (la app no tiene backend propio) y no se usa para publicidad.
-- **Claves API de AEMET** (opcional, las introduces tu): se guardan en el dispositivo y se envian solo a AEMET OpenData si eliges ese proveedor.
-- **Rutas GPX** (si importas un archivo): se leen y pueden guardarse en el dispositivo para la prevision sobre el track. Pueden usarse a la vez que el GPS (el pin te sigue; la meteo sigue la ruta). No se suben a un servidor nuestro.
-- **Ajustes** (proveedor, intervalo de refresco, modo actividad, muestreo GPX, malla del mapa): se guardan en el dispositivo.
+Hiking Weather is a weather consultation and related information application (map, warnings and auxiliary data). It is **not** an official meteorological service or a public authority.
 
-## Con quien se comparte
+---
 
-La app consulta servicios de terceros para mostrarte el tiempo y el mapa. Esas peticiones pueden incluir coordenadas o el nombre del municipio:
+## 1. Scope
 
-- Open-Meteo (prediccion, viento/lluvia actuales, calidad del aire; tambien la malla del mapa)
-- AEMET OpenData (si pegas tu API key y eliges AEMET; prevision municipal)
-- PNOA del Instituto Geografico Nacional (mapa / ortofoto de Espana)
-- Institut Cartografic i Geologic de Catalunya (ortofoto en Catalunya)
-- ArcGIS / Agents Rurals (capas de Plan Alfa, solo si el punto esta en Catalunya)
-- RSS de Proteccio Civil / Generalitat (avisos relacionados, cuando hay datos)
-- Geocoder de Android (buscar o resolver municipio)
+This policy applies to the use of Hiking Weather on Android devices. The application **does not operate a Developer-owned backend** for user accounts or cloud profiles. Processing takes place mainly on the user’s device and through requests to third-party services required to provide the features.
 
-Cada servicio aplica su propia politica.
+---
 
-## Lo que no hacemos
+## 2. Data processed
 
-- No creamos cuenta de usuario.
-- No mostramos anuncios.
-- No vendemos datos.
-- No accedemos a la ubicacion en segundo plano.
-- No enviamos rutas GPX ni claves AEMET a un servidor propio.
+### 2.1. Data processed on the device or through the app
 
-## Conservacion
+| Category | Description | Purpose / basis |
+| --- | --- | --- |
+| Location (approximate or precise) | If the user enables GPS or selects a point, coordinates are used to show forecast, map and warnings for that place. **Foreground only.** | Provision of the service requested by the user; legitimate interest in showing georeferenced information when requested. |
+| Search text | Places, peaks or landmarks entered for geocoding. | Provision of the search feature. |
+| GPX routes | If the user imports a file, its contents may be read and stored locally for forecast along the track. | Provision of the requested feature. |
+| App preferences and state | Refresh interval, activity mode, GPX sampling, map settings, language, acceptance of terms of use, among others. | Technical operation and remembering user settings. |
+| Recent places | Name and coordinates of locations selected by the user. | Convenience (local history). |
 
-Los datos se quedan en el telefono. Puedes borrar la app para eliminarlos. Las copias de seguridad del sistema de Android estan desactivadas en esta app (`allowBackup=false`).
+### 2.2. Data not processed
 
-## Limitacion de responsabilidad
+The Developer **does not** create user accounts, **does not** process personal identity data beyond what is stated above, **does not** show profile-based personalised advertising, and **does not** sell personal data.
 
-Hiking Weather no genera los datos meteorologicos: los muestra tal como los envian Open-Meteo/ECMWF, AEMET, ICGC, PNOA IGN, Agents Rurals y Proteccio Civil. El nivel de riesgo meteo mostrado en la app es orientativo (calculado a partir de la prevision) y no sustituye avisos oficiales. No se garantiza la exactitud. El uso es bajo tu responsabilidad.
+---
 
-## Contacto
+## 3. Disclosures to third parties (providers)
 
-Pagina de esta politica:  
+To obtain weather, map and warning information, the app requests external services. Those requests may include **coordinates**, a **municipality name** or **search text**. Each provider applies its own privacy policy and terms.
+
+| Provider | Use in the app | Data that may be sent |
+| --- | --- | --- |
+| **Open-Meteo** (weather models, e.g. ECMWF or others exposed by Open-Meteo) | Hourly and daily forecast, current conditions, air quality, map weather grid, search geocoding and terrain elevation. | Coordinates; search text (geocoder). |
+| **MeteoAlarm** (official warnings, e.g. AEMET) | Official weather warnings by zone. | Coordinates / relevant geographic area. |
+| **PNOA – Spanish National Geographic Institute** | Orthophoto / base map for Spain. | Coordinates / map tiles. |
+| **Institut Cartogràfic i Geològic de Catalunya (ICGC)** | Orthophoto in Catalonia. | Coordinates / map tiles. |
+| **Agents Rurals / ArcGIS (Plan Alfa)** | Plan Alfa information, only when the point is in Catalonia. | Coordinates. |
+| **Protecció Civil / Generalitat (RSS or equivalent sources)** | Related alerts when data are available. | Queries to public alert feeds. |
+| **Android system geocoder** | Municipality resolution or search fallback. | Coordinates or text, as applicable. |
+
+**Important:** the Developer **does not generate** weather, map or warning data. The app only requests and displays them. Accuracy, completeness, timeliness and lawfulness of content supplied by Open-Meteo and other providers **rest with those third parties**. The Developer **accepts no liability** for that content (see also the limitation of liability below and the in-app terms of use).
+
+---
+
+## 4. Retention
+
+- Local data (settings, recent places, imported GPX routes, acceptance of terms) remain on the device until the user deletes them or uninstalls the app.
+- Android automatic backups are disabled for this app (`allowBackup=false`).
+- Third parties retain data they receive under their own policies; the Developer does not control those periods.
+
+---
+
+## 5. Data-subject rights
+
+Under the GDPR, the user may, where applicable, exercise rights of access, rectification, erasure, restriction, objection and portability, and withdraw consent where processing is based on consent.
+
+Because most data are stored only on the device, the most direct way to delete them is to **uninstall the app** or clear its data in system settings. For other requests under this policy, use the contact channel below.
+
+A complaint may also be lodged with the Spanish Data Protection Agency (AEPD): https://www.aepd.es
+
+---
+
+## 6. Minors
+
+The app is not specifically directed at children under 14. If a minor uses it, adult or guardian supervision is recommended.
+
+---
+
+## 7. Limitation regarding displayed information
+
+Weather and warning information is **informative and indicative only**. It does not replace official alert channels. Processing of personal data described in this policy **does not imply** any guarantee as to the accuracy of third-party data.
+
+First launch of the app requires acceptance of the terms of use before continued use.
+
+### Limitation of liability (summary)
+
+Hiking Weather is solely a weather information application. The Developer does not generate, certify or guarantee data from Open-Meteo or other providers. Weather-risk indicators in the app are indicative and do not replace official warnings. Use of the app and of the information shown is entirely at the user’s own risk. To the fullest extent permitted by law, the Developer accepts no liability for decisions, damage, loss or accidents arising from that information or from third-party content.
+
+---
+
+## 8. Changes
+
+The Developer may update this policy to reflect legal, technical or functional changes. The “Last updated” date will be revised for material changes. Users are encouraged to review this page periodically.
+
+---
+
+## 9. Contact
+
+**Public URL** (Google Play Console and in-app link):  
 https://carlos1811.github.io/hikingweather-privacy/
 
-Para preguntas sobre privacidad, abre un issue en  
-https://github.com/carlos1811/hikingweather-privacy
+**Privacy questions:**  
+https://github.com/carlos1811/hikingweather-privacy (issues)

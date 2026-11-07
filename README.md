@@ -1,7 +1,9 @@
-# Politica de privacidad — Hiking Weather
+# Privacy Policy — Hiking Weather
 
-Pagina publica para Google Play. El codigo de la app esta en un repositorio privado.
+Public page for Google Play. The app source code lives in a private repository.
 
-**URL para Play Console:** https://carlos1811.github.io/hikingweather-privacy/
+**URL for Play Console:** https://carlos1811.github.io/hikingweather-privacy/
 
-Incluye politica de privacidad y limitacion de responsabilidad (los datos meteorologicos son de proveedores externos).
+Includes the privacy policy and a summary of limitation of liability (weather data come from third-party providers; the developer does not generate or guarantee them).
+
+Aligned with `PRIVACY.md` in the app repository (version 1.5.10). Content is in English.
