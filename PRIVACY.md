@@ -49,7 +49,7 @@ To obtain weather, map and warning information, the app requests external servic
 | **Protecció Civil / Generalitat (RSS or equivalent sources)** | Related alerts when data are available. | Queries to public alert feeds. |
 | **Android system geocoder** | Municipality resolution or search fallback. | Coordinates or text, as applicable. |
 
-**Important:** the Developer **does not generate** weather, map or warning data. The app only requests and displays them. Accuracy, completeness, timeliness and lawfulness of content supplied by Open-Meteo and other providers **rest with those third parties**. The Developer **accepts no liability** for that content (see also the limitation of liability below and the in-app terms of use).
+**Important:** neither **Hiking Weather** nor the Developer **generates** weather, map or warning data. The app only requests and displays them. Accuracy, completeness, timeliness and lawfulness of content supplied by Open-Meteo and other providers **rest with those third parties**. **Hiking Weather and the Developer accept no liability** for that content (see also the limitation of liability below and the in-app terms of use).
 
 ---
 
@@ -85,7 +85,7 @@ First launch of the app requires acceptance of the terms of use before continued
 
 ### Limitation of liability (summary)
 
-Hiking Weather is solely a weather information application. The Developer does not generate, certify or guarantee data from Open-Meteo or other providers. Weather-risk indicators in the app are indicative and do not replace official warnings. Use of the app and of the information shown is entirely at the user’s own risk. To the fullest extent permitted by law, the Developer accepts no liability for decisions, damage, loss or accidents arising from that information or from third-party content.
+Hiking Weather is solely a weather information application. Neither Hiking Weather nor the Developer generates, certifies or guarantees data from Open-Meteo or other providers. Weather-risk indicators in the app are indicative and do not replace official warnings. Use of the app and of the information shown is entirely at the user’s own risk. To the fullest extent permitted by law, Hiking Weather and the Developer accept no liability for decisions, damage, loss or accidents arising from that information or from third-party content. Liability shall not be attributed to the Hiking Weather application or to its Developer on account of such third-party data or their use.
 
 ---
 
